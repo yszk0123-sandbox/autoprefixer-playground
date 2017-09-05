@@ -1,0 +1,13 @@
+{
+  "name": "autoprefixer-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "postcss src/*.css --use autoprefixer -d build/"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.3",
+    "postcss-cli": "^4.1.0"
+  }
+}
